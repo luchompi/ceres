@@ -31,6 +31,7 @@ Notas de la version:
 
 Archivos de interes
 -Asignacion de ingredientes en la receta seleccionada
+￼￼
 
 1. app/Http/Controllers/RecipeController.php
     Métodos:
