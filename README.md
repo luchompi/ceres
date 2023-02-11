@@ -1,6 +1,7 @@
 
 CERES - v.0.0.1 - aplha
 Direccion URL de Prueba: <https://ceres.solosystem.com.co/home>
+-----
 
 Ceres fue el nombre escogido para el desarrollo del prototipo entregado para la prueba establecida
 por la empresa.
@@ -9,7 +10,6 @@ El prototipo fue desarrollado en el framework Laravel 9, utilizando el motor de 
 Fue un reto muy grande en vista de que no tengo experiencia desarrollando con php, y menos con laravel. Además de que fue dificil encontrar una PaaS que permitiera el despliegue de un proyecto con Dockerfile de forma gratuita y con soporte nativo.
 El proyecto ha sido desplegado en una VPS privada y tiene un lifetime de 15 días.
 Para mayor iformación sobre el proyecto, puede consultar las notas de la versión listadas a continuación.
------
 
 Notas de la version:
 
