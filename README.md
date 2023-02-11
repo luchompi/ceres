@@ -1,9 +1,14 @@
 
 CERES - v.0.0.1 - aplha
+Direccion URL de Prueba: <https://ceres.solosystem.com.co/home>
 
 Ceres fue el nombre escogido para el desarrollo del prototipo entregado para la prueba establecida
 por la empresa.
 
+El prototipo fue desarrollado en el framework Laravel 9, utilizando el motor de base de datos MySQL
+Fue un reto muy grande en vista de que no tengo experiencia desarrollando con php, y menos con laravel. Además de que fue dificil encontrar una PaaS que permitiera el despliegue de un proyecto con Dockerfile de forma gratuita y con soporte nativo.
+El proyecto ha sido desplegado en una VPS privada y tiene un lifetime de 15 días.
+Para mayor iformación sobre el proyecto, puede consultar las notas de la versión listadas a continuación.
 -----
 
 Notas de la version:
@@ -25,6 +30,8 @@ Archivos de interes
 
 CERES - v.0.0.2 - aplha
 
+- Asignacion de ordenes y restauración de ingredientes en el inventario
+
 2. app/Http/Controllers/OrderController.php
     Métodos:
     - create (crea una orden con una receta seleccionada aleatoriamente), No recibe ningun argumento
@@ -34,5 +41,3 @@ PENDIENTE:
 
 - Alimentar datos desde API  (implementada extension guzzlehttp/guzzle, composer require guzzlehttp/guzzle)
 NOTA: La API require credenciales para ser consumidas, es imposible consumirla sin autenticación.
-
-Direccion URL de Prueba: <https://ceres.solosystem.com.co/home>
