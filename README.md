@@ -29,7 +29,10 @@ Archivos de interes
     - removeIngredient, args : $recipe_id, $ingredient_id
     - saveIngredient, args : $recipe_id, $ingredient_id, $quantity
     - show (muestra los datos de la receta con sus respectivos ingredientes), args : $recipe_id
-
+    NOTAS:
+        No es necesaria en una recesta, indicar la preparacion o la descripcion, esos campos pueden pasarse en blanco
+        La cantidad de ingredientas a la hora de guardarlos, puede pasarse en blanco, el sistema asume que la cantidad minima es 1
+        
 CERES - v.0.0.2 - aplha
 
 - Asignacion de ordenes y restauración de ingredientes en el inventario
