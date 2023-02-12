@@ -16,6 +16,8 @@ Notas de la version:
 1. Se crearon migraciones respectivas a las tablas de la DB
 1. Se implementó la creación de ingredientes, recetas y la asignación de ingredientes a recetas.
 3. Se implementó la selección aleatoria de recetas y la resta de ingredientes del inventario segun la receta seleccionada.
+4. Se ha implementado dockerizacion habilitando laravel/sail para el despliegue del proyecto.
+
 
 Archivos de interes
 -Asignacion de ingredientes en la receta seleccionada
