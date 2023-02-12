@@ -18,6 +18,7 @@ use App\Http\Controllers\StoreController;
 */
 
 Route::get('/home', [HomeController::class, 'index'])->name('home');
+Route::get('/', [HomeController::class, 'index'])->name('home');
 
 //Ingredients URL
 Route::resource('ingredients',IngredientsController::class);

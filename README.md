@@ -13,6 +13,20 @@ Es probable que algunas funciones no respondan de forma optima debido a las espe
 Recomiendo probar el proyecto en un entorno local.
 Para mayor iformación sobre el proyecto, puede consultar las notas de la versión listadas a continuación.
 
+
+
+
+------
+USO
+------
+- Agregar ingrediente. Args : nombre, cantidad y tipo. Los campos cantidad y tipo son opcionales. By default, la cantidad es 5 y el tipo se admite en blanco
+-agregar receta: Args : nombre, descripcion y preparacion. Los campos descripcion y preparacion son opcionales. By default, la descripcion y preparacion se admite en blanco
+-Asignar ingrediente a receta: Args : receta_id, ingrediente_id, cantidad. 
+-Seleccionar receta aleatoria: No recibe argumentos
+-Entregar la orden: Args: order_id. 
+-Cancelar Orden/entrega: Elimina la orden y restaura los ingredientes en el inventario. Si la preparación se encontraba como "No preparado", se vuelve a poner disponible para ser seleccionado.
+
+
 Notas de la version:
 
 1. Se crearon migraciones respectivas a las tablas de la DB
