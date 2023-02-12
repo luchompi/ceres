@@ -9,6 +9,8 @@ por la empresa.
 El prototipo fue desarrollado en el framework Laravel 9, utilizando el motor de base de datos MySQL
 Fue un reto muy grande en vista de que no tengo experiencia desarrollando con php, y menos con laravel. Además de que fue dificil encontrar una PaaS que permitiera el despliegue de un proyecto con Dockerfile de forma gratuita y con soporte nativo.
 El proyecto ha sido desplegado en una VPS privada y tiene un lifetime de 15 días.
+Es probable que algunas funciones no respondan de forma optima debido a las especificaciones de la VPS.
+Recomiendo probar el proyecto en un entorno local.
 Para mayor iformación sobre el proyecto, puede consultar las notas de la versión listadas a continuación.
 
 Notas de la version:
@@ -17,7 +19,6 @@ Notas de la version:
 1. Se implementó la creación de ingredientes, recetas y la asignación de ingredientes a recetas.
 3. Se implementó la selección aleatoria de recetas y la resta de ingredientes del inventario segun la receta seleccionada.
 4. Se ha implementado dockerizacion habilitando laravel/sail para el despliegue del proyecto.
-
 
 Archivos de interes
 -Asignacion de ingredientes en la receta seleccionada
@@ -32,7 +33,7 @@ Archivos de interes
     - NOTAS:
        -- No es necesaria en una recesta, indicar la preparacion o la descripcion, esos campos pueden pasarse en blanco
        -- La cantidad de ingredientas a la hora de guardarlos, puede pasarse en blanco, el sistema asume que la cantidad minima es 5
-        
+
 CERES - v.0.0.2 - aplha
 
 - Asignacion de ordenes y restauración de ingredientes en el inventario
